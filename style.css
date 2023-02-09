@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+/* Header area */
+
+.header-container {
+    background-image: url(images/banner/banner2.png);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.header-text {
+    text-align: end;
+    position: absolute;
+    right: 150px;
+    top: 200px;
+}
+
+.header-text h1 {
+    font-size: 65px;
+}
+
+.header-text p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #444343;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: #F15B22;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+/* failures area */
+
+.failure-area {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 120px;
+
+}
+
+.failur-image img {
+    height: 723px;
+    width: 570px;
+}
+
+.failure-text {
+    text-align: start;
+    margin-left: 40px;
+}
+
+.failure-text h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.failure-text p {
+    margin-top: 15px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    color: #444343;
+}
+
+.failure-text ul {
+    /* list-style-image: url(images/check.png); */
+    list-style-position: inside;
+    color: #444343;
+}
+
+.failure-text ul li {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+/* Plan Area */
+
+.plan-container {
+    margin-top: 65px;
+}
+
+.plan-container h2 {
+    text-align: center;
+}
+
+.plan-area {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+
+}
+
+.single-plan {}
+
+.single-plan p {
+    color: #444343;
+}
+
+/* mindset banner area  */
+
+.mindset-banner {
+    height: 220px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(images/watch.png);
+    border-radius: 10px;
+}
+
+.mindset-text {
+    margin-left: 45px;
+    padding-top: 50px;
+}
+
+.mindset-text h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.mindset-text button {
+    background-color: white;
+}
+
+.mindset-text button a {
+    color: #F15B22;
+}
+
+/* Footer area  */
+
+
+footer {
+    background-color: #151414;
+    margin-top: 55px;
+}
+
+.footer-area {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-left h2 p {
+    color: white;
+}
+
+.footer-left {
+    width: 485px;
+    height: 317px;
+    margin-top: 60px;
+    color: azure;
+}
+
+.footer-right {
+    margin-top: 60px;
+    padding-left: 85px;
+    color: azure;
+}
+
+.footer-right input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.social img {
+    padding: 5px
+}
